@@ -4,3 +4,6 @@ let bmi = (weight, height, bmi = weight / height**2) =>
  bmi <= 30 ? "Overweight" : "Obese";
 
  console.log(bmi(80, 1.8))
+
+hola
+ 
