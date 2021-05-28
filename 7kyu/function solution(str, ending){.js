@@ -1,5 +1,5 @@
 function solution(str, ending){
   // TODO: complete
-  console.log(/(?=:-)/.test(':-)'))
+  return str.endsWith(ending)
 }
-solution('abcde', ':-)')
+solution('abcde', 'de')
