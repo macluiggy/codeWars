@@ -10,3 +10,6 @@ function reverseLetter(str) {
     return str.match(/[a-z]/g).reverse().join('')
 }
 console.log(reverseLetter("krishan"))
+
+
+console.log('(hola)'.match(/\(/g))
