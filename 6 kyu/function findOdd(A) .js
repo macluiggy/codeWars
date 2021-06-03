@@ -48,3 +48,8 @@ let flattened = [[0, 1], [2, 3], [4, 5]].reduce(
   []
 )
 // flattened is [0, 1, 2, 3, 4, 5]
+
+let array = ['hola', 'mundo']
+
+let value = array.reduce((a, b) => a + ' ' + b,'todo bien,')
+console.log(value)
