@@ -17,3 +17,27 @@ const makeAnArray = n => {
 }
 
 console.log(multiplicationTable(2,2))
+
+console.log([...Array(5)])
+
+
+function listSquared(m, n) {
+    // your code
+    var divisors = [];
+    for (var i = m; i <= n; i++) {
+        var divisor = 1;
+        var divisorSum = 0;
+        while (divisor * divisor <= i) {
+            if (i % divisor == 0) {
+                divisorSum += divisor * divisor;
+            }
+            divisor++;
+        }
+        if (divisorSum * divisorSum == i) {
+            divisors.push(i);
+        }
+    }
+    return divisors
+}
+
+console.log(listSquared(1, 250))
