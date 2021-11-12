@@ -1,0 +1,23 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "CODE WARS CHALLENGES...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macluiggy/codeWars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macluiggy/codeWars/issues"
+  },
+  "homepage": "https://github.com/macluiggy/codeWars#readme",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
