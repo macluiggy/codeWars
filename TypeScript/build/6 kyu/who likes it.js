@@ -9,16 +9,16 @@ var likes = function (a) {
             result = 'no one likes this';
             break;
         case 1:
-            result = a[0] + " likes this";
+            result = "".concat(a[0], " likes this");
             break;
         case 2:
-            result = a[0] + " and " + a[1] + " like this";
+            result = "".concat(a[0], " and ").concat(a[1], " like this");
             break;
         case 3:
-            result = a[0] + ", " + a[1] + " and " + a[2] + " like this";
+            result = "".concat(a[0], ", ").concat(a[1], " and ").concat(a[2], " like this");
             break;
         default:
-            result = a[0] + ", " + a[1] + " and " + a.slice(2).length + " others like this";
+            result = "".concat(a[0], ", ").concat(a[1], " and ").concat(a.slice(2).length, " others like this");
             break;
     }
     return result;

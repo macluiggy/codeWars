@@ -4,4 +4,3 @@ var Ball = function (ballType) {
     this.ballType = ballType;
 };
 var ball1 = new Ball('super');
-console.log(ball1)

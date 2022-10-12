@@ -11,10 +11,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.digitalRoot = exports.digitalRoot1 = void 0;
 var digitalRoot1 = function (n) {
     // your code here
-    var digits = ("" + n).split(''); //paso 1 y dos
+    var digits = "".concat(n).split(''); //paso 1 y dos
     var sumOfDigits = digits.reduce(function (sum, num) { return +num + sum; }, 0); //paso 3
     //  console.log(sumOfDigits);
-    var digitsOfSumOfDigits = ("" + sumOfDigits).split(''); // paso 4
+    var digitsOfSumOfDigits = "".concat(sumOfDigits).split(''); // paso 4
     if (digitsOfSumOfDigits.length >= 2) {
         return (0, exports.digitalRoot)(sumOfDigits);
     }
@@ -22,9 +22,9 @@ var digitalRoot1 = function (n) {
 };
 exports.digitalRoot1 = digitalRoot1;
 var digitalRoot = function (n) {
-    var digits = ("" + n).split('');
+    var digits = "".concat(n).split('');
     var sumOfDigits = digits.reduce(function (sum, num) { return +num + sum; }, 0);
-    var digitsOfSumOfDigits = ("" + sumOfDigits).split('');
+    var digitsOfSumOfDigits = "".concat(sumOfDigits).split('');
     if (digitsOfSumOfDigits.length >= 2) {
         return (0, exports.digitalRoot)(sumOfDigits);
     }
